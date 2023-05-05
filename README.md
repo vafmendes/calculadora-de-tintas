@@ -23,6 +23,8 @@ npm install
  - React.js
  - Node.js
  - Javascript
+ - HTML
+ - CSS
 
  ### IDE utilizada para desenvolver a aplicação
   - Visual Studio Code (vscode)
