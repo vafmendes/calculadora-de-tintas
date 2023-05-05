@@ -6,7 +6,6 @@ import PrintCampos from "./components/PrintCampos";
 function App() {
   return (
     <div>
-      {/* <h2>Code Challenge</h2>  */}
       <div className="container">
       <h3>Calculadora de Tintas</h3>
         <InputCampos/>
