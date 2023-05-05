@@ -23,6 +23,9 @@ npm start
 
 ### Template da aplicação
 ***
+<img src="/uploads/6d864386b00fea6bed4fc49835880900/Captura_de_tela_2023-05-04_215910.png" width="580px"/>
+
+***
 
 
 
