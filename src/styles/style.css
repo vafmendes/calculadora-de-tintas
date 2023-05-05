@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 :root{
-    /* --primary-color: linear-gradient(to left, red, yellow, green,  #160b0a); */
     
     --primary-color: linear-gradient(to bottom right,#230fd8,#d47c00,#d41302, #160b0a);
 
