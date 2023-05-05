@@ -13,6 +13,12 @@ Essa aplicação deve considerar que a sala é composta de 4 paredes e deve perm
 npm start
 
 ```
+Obs: Antes de executar este comando é necessário instalar a pasta de dependência node_modules
+usando este comando dentro do terminal
+```
+npm install
+
+```
 ### Tecnologias utilizadas
  - React.js
  - Node.js
@@ -24,7 +30,7 @@ npm start
 ### Template da aplicação
 ***
 <span align="center">
-  <img src="/uploads/6d864386b00fea6bed4fc49835880900/Captura_de_tela_2023-05-04_215910.png" width="580px"/>
+  <img src="/uploads/6d864386b00fea6bed4fc49835880900/Captura_de_tela_2023-05-04_215910.png" width="700px"/>
 </span>
 
 
