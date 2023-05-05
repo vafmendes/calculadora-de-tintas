@@ -13,7 +13,7 @@ Essa aplicação deve considerar que a sala é composta de 4 paredes e deve perm
 npm start
 
 ```
-Obs: Antes de executar o npm 'start' é necessário instalar a pasta de dependência 'node_modules'
+Obs: Antes de executar o 'npm start' é necessário instalar a pasta de dependência 'node_modules'
 usando este comando dentro do terminal
 ```
 npm install
