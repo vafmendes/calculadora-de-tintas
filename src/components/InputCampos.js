@@ -47,11 +47,9 @@ function InputCampos() {
 
   /*Área pré-definida pela regra de negócio de cada porta */
   const areaPortas = quantPortas.reduce((porta, cur) => porta + cur * 2.4, 0).toFixed(2);
-  console.log(areaPortas);
 
   /*Área pré-definida pela regra de negócio de cada janela */
   const areaJanelas = quantJanelas.reduce((janela, cur) => janela + cur * 1.52, 0).toFixed(2);
-  console.log(areaJanelas);
 
   /*Área em m² de cada parede inserida pelo usuário*/
   const quantLargAlt = paredes.map((parede) => { return Number(parede.largura * parede.altura) });
