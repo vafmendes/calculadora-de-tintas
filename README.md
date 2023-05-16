@@ -30,9 +30,10 @@ npm install
   - Visual Studio Code (vscode)
 
 ### Template da aplicação
+
 ***
 <span align="center">
-  <img src="/uploads/6d864386b00fea6bed4fc49835880900/Captura_de_tela_2023-05-04_215910.png" width="700px"/>
+  <img src="https://github.com/vafmendes/calculadora-de-tintas/assets/106504029/d15a924d-f70a-4cd3-bfdc-4dc176a24e45" width="700px"/>
 </span>
 
 
