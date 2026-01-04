@@ -6,6 +6,7 @@
 - Desenvolver uma aplicação web ou mobile que ajude o usuário a calcular a quantidade de tinta necessária para pintar uma sala.
 Essa aplicação deve considerar que a sala é composta de 4 paredes e deve permitir que o usuário escolha qual a medida de cada parede e quantas janelas e portas possuem cada parede.
 
+
 ### Como executá-lo após clonar o repositório
 ```
 npm run dev
@@ -109,6 +110,132 @@ calculadora-de-tintas/
 
 
 ***
+### 🏠 Cenário Prático: Pintando a Casa
+
+### **Situação Inicial**
+O cliente quer pintar sua sala de estar e decidiu usar a aplicação para calcular quantos litros de tinta precisará comprar.
+
+**Medidas da Sala:**
+- **Parede 1 (Frente)**: 5m de largura × 2.8m de altura, 1 porta, 0 janelas
+- **Parede 2 (Lateral Direita)**: 4m de largura × 2.8m de altura, 0 portas, 1 janela
+- **Parede 3 (Fundo)**: 5m de largura × 2.8m de altura, 0 portas, 2 janelas
+- **Parede 4 (Lateral Esquerda)**: 4m de largura × 2.8m de altura, 0 portas, 1 janela
+
+### **Passos de Uso**
+
+#### **Passo 1: Abrir a Aplicação**
+```
+✓ Vê a página com título "Calculadora de Tintas"
+✓ Lê instrução: "Clique no botão abaixo e informe a medida de cada parede..."
+✓ Clica no botão "+ Adicionar parede"
+```
+
+#### **Passo 2: Adicionar Primeira Parede**
+```
+Prompt 1: "Informe a largura da parede 1: (use '.' para decimais, não ',')"
+Entrada: 5
+
+Prompt 2: "Informe a altura da parede 1 (use '.' para decimais, não ','):"
+Entrada: 2.8
+
+Prompt 3: "Informe a quantidade de portas"
+Entrada: 1
+
+Prompt 4: "Informe a quantidade de janelas"
+Entrada: 0
+
+✓ Alert: "Parede 1 adicionada"
+✓ Mensagem: "Para adicionar outra parede clique novamente"
+✓ Botão continua disponível: "+ Adicionar parede"
+```
+
+#### **Passo 3: Adicionar Segunda Parede**
+```
+Prompt 1: "Informe a largura da parede 2:"
+Entrada: 4
+
+Prompt 2: "Informe a altura da parede 2:"
+Entrada: 2.8
+
+Prompt 3: "Informe a quantidade de portas"
+Entrada: 0
+
+Prompt 4: "Informe a quantidade de janelas"
+Entrada: 1
+
+✓ Alert: "Parede 2 adicionada"
+✓ Mensagem: "Para adicionar outra parede clique novamente"
+✓ Botão continua disponível: "+ Adicionar parede"
+```
+
+#### **Passo 4: Adicionar Terceira Parede**
+```
+Prompt 1: "Informe a largura da parede 3:"
+Entrada: 5
+
+Prompt 2: "Informe a altura da parede 3:"
+Entrada: 2.8
+
+Prompt 3: "Informe a quantidade de portas"
+Entrada: 0
+
+Prompt 4: "Informe a quantidade de janelas"
+Entrada: 2
+
+✓ Alert: "Parede 3 adicionada"
+✓ Mensagem: "Para adicionar outra parede clique novamente"
+✓ Botão continua disponível: "+ Adicionar parede"
+```
+
+#### **Passo 5: Adicionar Quarta Parede**
+```
+Prompt 1: "Informe a largura da parede 4:"
+Entrada: 4
+
+Prompt 2: "Informe a altura da parede 4:"
+Entrada: 2.8
+
+Prompt 3: "Informe a quantidade de portas"
+Entrada: 0
+
+Prompt 4: "Informe a quantidade de janelas"
+Entrada: 1
+
+✓ Alert: "Parede 4 adicionada"
+✓ Sistema detecta: 4 paredes adicionadas (máximo atingido)
+✓ Transição automática para tela de resultado
+```
+
+#### **Passo 6: Visualizar Resultado**
+```
+Seção 1 - MEDIDAS INSERIDAS:
+┌─────────────────────────────────────────────┐
+│ Parede 1: Largura - 5.00 | Altura - 2.80   │
+│ Portas: 1 | Janelas: 0 | Área: 14m²         │
+│                                               │
+│ Parede 2: Largura - 4.00 | Altura - 2.80   │
+│ Portas: 0 | Janelas: 1 | Área: 11.2m²       │
+│                                               │
+│ Parede 3: Largura - 5.00 | Altura - 2.80   │
+│ Portas: 0 | Janelas: 2 | Área: 14m²         │
+│                                               │
+│ Parede 4: Largura - 4.00 | Altura - 2.80   │
+│ Portas: 0 | Janelas: 1 | Área: 11.2m²       │
+│                                               │
+│ Total de portas: 1 e Total de janelas: 4    │
+│ Área total: 50.4m²                          │
+└─────────────────────────────────────────────┘
+
+Seção 2 - RECOMENDAÇÃO:
+┌─────────────────────────────────────────────┐
+│ Resultado: Compre uma lata de 18 litros     │
+│           de tinta.                          │
+└─────────────────────────────────────────────┘
+
+Mensagem: "Caso deseje fazer um novo cálculo, clique em 'Reiniciar'"
+Botão disponível: "Reiniciar"
+```
+
 
 
 
