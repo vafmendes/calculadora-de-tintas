@@ -5,5 +5,5 @@ interface ResultadoProps {
 }
 
 export function Resultado({ enviarValor }: ResultadoProps): React.ReactElement {
-  return <div>Resultado: {enviarValor}</div>;
+  return (<div>Resultado: {enviarValor}</div>);
 }
