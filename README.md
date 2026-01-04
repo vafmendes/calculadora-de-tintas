@@ -8,7 +8,7 @@ Essa aplicação deve considerar que a sala é composta de 4 paredes e deve perm
 
 ### Como executá-lo após clonar o repositório
 ```
-npm start
+npm run dev
 
 ```
 Obs: Antes de executar o 'npm run dev' é necessário instalar a pasta de dependência 'node_modules'
