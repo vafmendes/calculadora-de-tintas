@@ -1,16 +1,14 @@
-import React from "react";
-import "../src/styles/style.css";
-import InputCampos from "./components/InputCampos";
-import PrintCampos from "./components/PrintCampos";
+import React from 'react';
+import { InputCampos } from './presentation/pages/InputCampos';
+import './index.css';
 
 function App() {
   return (
     <div>
       <div className="container">
-      <h3>Calculadora de Tintas</h3>
-        <InputCampos/>
-        <PrintCampos />
-    </div>
+        <h3>Calculadora de Tintas</h3>
+        <InputCampos />
+      </div>
     </div>
   );
 }
