@@ -1,10 +1,10 @@
-import React from 'react';
-import { InputCampos } from './presentation/pages/InputCampos';
-import './index.css';
+import React from "react";
+import { InputCampos } from "./presentation/pages/InputCampos";
+import "./index.css";
 
 function App(): React.ReactElement {
   return (
-    <div>
+    <div className="app-bg">
       <div className="container">
         <h3>Calculadora de Tintas</h3>
         <InputCampos />
