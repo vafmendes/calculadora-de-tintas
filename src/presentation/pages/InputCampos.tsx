@@ -59,9 +59,21 @@ export function InputCampos(): React.ReactElement {
       {!completo && (
         <button onClick={handleAdicionarParede}>Adicionar parede</button>
       )}
-      {completo && <DisplayMedidas paredes={paredes} />}
-      {completo && <DisplayResultado paredes={paredes} />}
-      {completo && <button onClick={handleReiniciar}>Reiniciar</button>}
+      {completo && (
+        <div className="results-container">
+          <div className="results-left">
+            <DisplayMedidas paredes={paredes} />
+          </div>
+          <div className="results-right">
+            <DisplayResultado paredes={paredes} />
+          </div>
+        </div>
+      )}
+      {completo && (
+        <div style={{ width: "100%", marginTop: "1.5rem" }}>
+          <button onClick={handleReiniciar}>Reiniciar</button>
+        </div>
+      )}
     </div>
   );
 }
